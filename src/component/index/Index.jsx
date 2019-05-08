@@ -13,9 +13,6 @@ export default class Index extends React.Component {
       show: false
     }
   }
-  // componentWillMount() {
-  //   console.log()
-  // }
 
   render() {   
       return <div>
