@@ -1,0 +1,109 @@
+/* 头部 */
+.logo{
+  width: 250px;
+  height: 40px;
+  background: url('http://www.gzdata.gov.cn/img/logo_index.png');
+  border:0;
+  margin: 16px 24px 16px 0;
+  float: left;
+  background-size: cover;
+}
+.ant-menu-horizontal {
+  border:0;
+}
+.ant-menu-horizontal > .ant-menu-submenu {
+  border-bottom:0;
+}
+.ant-menu-horizontal > .ant-menu-submenu:hover {
+  border-bottom:0;
+  
+}
+.ant-menu-submenu{
+  transition:none;
+}
+/* .ant-menu-horizontal > .ant-menu-submenu-selected {
+  border-bottom:0;
+} */
+.ant-menu-submenu-title:hover{
+  box-sizing: content-box;
+  border-top:3px solid #00cc99;
+  border-left:1px solid #ddd;
+  border-right:1px solid #ddd;
+  border-bottom:0;
+}
+.link{
+  color:#000;
+}
+.ant-menu-submenu-title .anticon{
+  margin-right:0;
+}
+.nav-second .ant-menu-submenu-open {
+  background-color: red;
+}
+.nav-second .ant-menu-submenu-active{
+  background-color:blue;
+}
+/* 登陆注册 */
+.btn-user{
+  border:0;
+  background-color: #fff;
+  color:#ddd;
+  font-size:13px;
+}
+.btn-user:hover{
+  color:#00cc99;
+}
+.btn-login{
+  width: 70px;
+  margin:0 15px;
+  background-color:#00cc99;
+  border:0
+}
+.btn-login:hover{
+  background-color: #00cccc;
+}
+.btn-reg{
+  width: 70px;
+  border:1px solid #ccc;
+}
+.btn-reg:hover{
+  color:#00cc99;
+  border:1px solid #00cc99;
+}
+
+/* foot */
+.ant-col-2{
+  border-right: 1px solid #fff;
+  line-height: 30px;
+}
+.ant-col-2 a{
+  font-size:14px;
+  color:#Fff;
+  font-weight: bold;
+}
+.ant-col-2 a:hover{
+  color: #00cc99;
+}
+.ant-col-10 .ant-card-bordered {
+  width:100% !important;
+}
+.ant-col-10 .ant-card-body{
+  padding-left:50px;
+  width:100%;
+}
+.foot-card p, .foot-card p a{
+  color:#fff;
+  font-size:14px;
+  font-weight: bold;
+}
+.ant-col-6 {
+  padding-right:0;
+}
+.ant-col-6 .ant-card-body{
+  padding-left:0 ;
+}
+.foot-card .ant-col-8 .ant-card-body{
+  margin-top:14px;
+  padding:10px;
+  border-left:1px solid #999;
+}

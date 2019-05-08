@@ -1,0 +1,22 @@
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .login-form-button {
+    width: 100%;
+  }
+  .login-form-button{
+      width: 100%;
+  }
+  .ant-form-item {
+      margin-bottom:10px;
+  }
+  .ant-form-item-control{
+      line-height: 30px;
+  }
+  .ant-form-explain{
+    margin-bottom: -19px;
+    font-size: 12px;
+  }

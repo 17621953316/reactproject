@@ -1,0 +1,35 @@
+
+.ant-modal-mask{
+    background: url(http://www.gzdata.gov.cn/img/login_bg.png);
+
+}
+.bgimg{
+    height:100px;
+    position: absolute;
+    top:-100px;
+    left:-250px;
+}
+.ant-modal {
+    width:440px !important;
+}
+.ant-modal-content {
+    background-color: rgba(255,255,255,0.6);
+    text-align: center;
+    padding: 20px;
+    padding-bottom:0;
+}
+.ant-modal-header {
+    border-bottom:none;
+    background: none;
+}
+.ant-modal-body{
+    padding-bottom:0;
+}
+.ant-modal-title {
+    color:rgba(255,255,255,0.85);
+    font-size: 24px;
+}
+.ant-modal-footer {
+    border-top:none;
+}
+

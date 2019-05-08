@@ -1,0 +1,321 @@
+/* banner */
+.page1,.page2,.page3{
+    height:500px;
+    background-position: center 0;
+    margin-top:-8px;
+}
+.page1{
+    background-image: url("http://www.gzdata.gov.cn/img/banner00.jpg");
+}
+.page2{
+    background-image: url( "http://www.gzdata.gov.cn/img/banner01.jpg");
+}
+.page3{
+    background-image: url("http://www.gzdata.gov.cn/img/banner02.jpg");
+}
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 100%;
+    height:500px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+  .ant-carousel .slick-dots{
+      bottom:70px;
+  }
+  .ant-carousel .slick-dots li button{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.5;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  .ant-carousel .slick-dots li.slick-active button{
+    opacity: 1;
+    width: 26px;
+    border-radius: 50px;
+  }
+  /* 搜索 */
+
+  .search{
+      z-index: 1;
+      width:500px;
+      position: absolute;
+      top:250px;
+      left:100px;
+      border:10px solid rgba(247, 247, 247, 0.5);
+      border-radius: 0;
+      transition: all 0.5s;
+  }
+  /* 搜索过渡 */
+  .searchTop{
+    top:150px;
+    transition: all 0.5s;
+  }
+  .ant-input-search-enter-button input + .ant-input-group-addon .ant-input-search-button{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width:80px;
+    background-color: #FF9900;
+    border:0;
+  }
+  .ant-input{
+    border-radius: 0;
+  }
+  .ant-input:focus{
+      border-color: none;
+      border-right-width: 0px !important;
+      outline: 0;
+      box-shadow: none;
+  }
+  .ant-input:hover{
+      border:0; 
+  }
+  .ant-input-lg{
+      border:none;
+  }
+  /*  关闭按钮*/
+  .closeIcon{
+    position: absolute;
+    opacity: 0;
+    top: 268px;
+    left: 625px;
+    font-size: 30px;
+    color:#fff;
+  }
+  .closeIconShow{
+      opacity: 1;
+      transition: all 0.5s;
+      top:168px;
+  }
+  .closeIcon:hover{
+      color:rgba(255,255,255,0.5);
+  }
+/* 搜索列表项 */
+  .search-list{
+      width: 500px;
+      position: absolute;
+      top:320px;
+      left:100px;
+      z-index: 2;
+  }
+  .search-listhidden{
+      display: none;
+  }
+  .search-list span{
+      display: inline-block;
+      width: 45px;
+      text-align: center;
+      color:#fff;
+      font-size:14px;
+      font-weight: bold;
+  }
+  .search-list span a{
+    color:#fff;
+  }
+  .search-list div{
+    float: left;
+    display: inline;
+  }
+  .search-list .list{
+    width: 450px;
+  }
+  .search-list .list a:hover{
+    text-decoration: underline;
+  }
+.card{
+    position: absolute;
+    top:220px;
+    left:100px;
+    border: 10px solid rgba(247,247,247,0.5);
+    width: 500px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+/* 主题块  过渡 */
+.cardShow{
+    opacity: 1; 
+    transition: all 0.5s; 
+}
+.card span{
+    font-weight: bold;
+    line-height:10px;
+    text-align: center;
+    color:#fff;
+    width: 75px;
+    display: inline-block;
+}
+.card span a{
+    color:#fff;
+    /* width:100%;
+    height: 100%; */
+    display: inline-block;
+    border-radius: 5px;
+}
+.card span a:hover{
+    color:#4474BB;
+    background-color:rgba(221,221,221,0.5);
+}
+.ant-card {
+    background: none;
+}
+.ant-card-bordered {
+    border:none;
+}
+/* 平台通道 */
+.platform{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(255,255,255,0.4);
+    position: absolute;
+    top: 524px;
+    padding-left:100px;
+}
+.platform h3{
+    display: inline;
+    float: left;
+    color:#fff
+}
+.platform ul{
+    display: inline-block;
+    list-style: none;
+}
+.platform ul li{
+    float: left;
+    width:100px;
+    text-align: center;
+    color:#fff
+}
+.platform ul li:hover{
+    cursor: pointer;
+}
+
+/* 开放数据部分 */
+.data{
+    padding-top:20px;
+    width: 100%;
+}
+.ant-col-sm-offset-1 {
+    margin-left: 10.166667%;
+}
+.data div{
+    text-align: center;
+}
+.data div h3{
+    color:#666;
+}
+.data div p{
+    margin-top:10px;
+}
+.data div p span{
+    color:#00cc99;
+    font-size:18px;
+    font-weight: bold;
+    padding-right:5px;
+}
+/* 全部主题 */
+.allTitle {
+    background-color: #fff;
+    height: 450px;
+    width: 100%;
+    text-align: center;
+    padding-left:80px;
+    padding-right:10px;
+}
+.allTitle .gutter-row{
+    width: 180px;
+    height: 180px;
+    margin-right: 20px;
+}
+.allTitle .gutter-box{
+    float:left;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+    /* padding-top:20px; */
+}
+.allTitle .gutter-row .gutter-box:hover{
+    border:1px solid #51ceaf;
+    border-radius: 3px;
+    box-shadow: 0 0 15px #51ceaf;
+    transition:all 0.4s;
+    background: #f2f8f7;
+}
+.allTitle .gutter-box svg {
+    font-size:65px;
+    color:#51ceaf;
+}
+.gutter-example .ant-row > div {
+    background: transparent;
+    border: 0;
+    float:left;
+}
+.allTitle .ant-btn{
+    /* margin:20px 0; */
+}
+.allTitle .ant-btn:hover{
+    color:#51ceaf;
+    border-color: #51ceaf;
+}
+
+/* 全部新闻部分 */
+.articles{
+  padding:0 40px;
+  margin:50px 0;
+}
+.articles .articlesTop{
+    height:100px;
+    background: url("../images/index_news01.png");
+    background-size: cover;
+    padding-top:20px;
+    color:#fff;
+    font-size: 16px;
+}
+.articles .articlesTop h1{
+    color:#fff;
+    margin-bottom:0;
+    font-size:24px;
+    font-weight: bold;
+    letter-spacing:5px;
+}
+.articles .articlesTop2 {
+    background: url("../images/index_news02.png");
+    background-size: cover;
+}
+.articles .articlesTop3{
+    background: url("../images/index_news03.png");
+    background-size: cover;
+}
+/* 文章列表部分 */
+.ant-col-8 {
+    text-align: center;
+    width: 30%;
+}
+.ant-card-body{
+    text-align: left;
+    color:#ccc;
+    font-size:12px;
+}
+.ant-card-body a{
+    padding:10px 5px;
+    font-size:14px;
+    color:#777;
+    font-weight: bold;
+}
+.line-limit-length {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    }
+.ant-card-body a:hover{
+    color:#51ceaf;
+    
+}
